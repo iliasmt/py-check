@@ -10,14 +10,14 @@ Instructions for the software:
 * python py-check.py --help
 
 
-Example usage:
-python py-check.py "http://google.com" \
-    'title' 'Google'
+# Example usage:
+
+
+`python py-check.py "http://google.com" 'title' 'Google'`
 
 in successful execution there is no output.
 
-python py-check.py "http://google.com" \
-    'title' 'blah'
+`python py-check.py "http://google.com" 'title' 'blah'`
 
 in erroneous execution there is an error message.
 `FAILURE to find blah in http://google.com into html element title`
