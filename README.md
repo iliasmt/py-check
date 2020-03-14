@@ -12,12 +12,15 @@ Instructions for the software:
 
 # Example usage:
 
+in successful execution there is no output.
+
 
 `python py-check.py "http://google.com" 'title' 'Google'`
 
-in successful execution there is no output.
+
+in erroneous execution there is an error message.
+
 
 `python py-check.py "http://google.com" 'title' 'blah'`
 
-in erroneous execution there is an error message.
 `FAILURE to find blah in http://google.com into html element title`
